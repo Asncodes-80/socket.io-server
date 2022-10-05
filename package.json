@@ -1,0 +1,28 @@
+{
+  "name": "socket.io-server",
+  "version": "1.0.0",
+  "description": "Ready to use Socket.io server for clients",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asncodes-80/socket.io-server.git"
+  },
+  "keywords": [
+    "sockio-server"
+  ],
+  "author": "AlirezaSoltaniNeshan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Asncodes-80/socket.io-server/issues"
+  },
+  "homepage": "https://github.com/Asncodes-80/socket.io-server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2",
+    "socket.io-stream": "^0.9.1"
+  }
+}
